@@ -1,0 +1,90 @@
+initial prompt (question): how do I get out of jail in monopoly?
+Response:  To get out of jail in Monopoly, you have three options:
+
+1. Roll doubles on any of your next three turns and move forward the number of spaces shown by your doubles throw.
+2. If you have a "Get Out of Jail Free" card, you can use it to immediately get out of jail without having to roll doubles.
+3. You can also buy a "Get Out of Jail Free" card from another player and play it to get out of jail.
+4. As a last resort, if none of the above options are available, you will have to pay a fine of $50 before your third turn. If you do not throw doubles by your third turn, you must pay the $50 fine. You then get out of Jail and immediately move forward the number of spaces shown by your throw on your next turn.
+Sources: ['data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:2:2', 'data/monopoly.pdf:0:0', 'data/monopoly.pdf:4:0']
+
+
+almost the same prompt: how do I get out from jail in monopoly?
+Response:  You can get out of Jail in Monopoly by either throwing doubles on any of your next three turns and moving forward the number of spaces shown by your doubles throw, or by using a "Get Out of Jail Free" card if you have it. If you don't have the card and haven't thrown doubles three times in succession yet, you must pay a $50 fine before your third turn and then move forward the number of spaces shown by your throw on your next turn. Additionally, you can also choose to buy a "Get Out of Jail Free" card from another player and play it to get out of jail.
+Sources: ['data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:2:2', 'data/monopoly.pdf:4:0', 'data/monopoly.pdf:0:0']
+
+almost the same prompt: how to get out of jail in monopoly?
+Response:  You can get out of Jail in Monopoly by throwing doubles on any one of your next three turns. If you succeed in doing this, you move forward the number of spaces shown by your doubles throw. Alternatively, if you have a "Get Out of Jail Free" card, you can use it to immediately leave Jail without having to roll doubles. Additionally, another player can sell you their unused "Get Out of Jail Free" card at an agreed price.
+Sources: ['data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:2:2', 'data/monopoly.pdf:4:0', 'data/monopoly.pdf:0:0']
+
+
+
+### With rephrasing:
+1st REPHRASING_PROMPT:
+"""Rephrase a question to a following format:
+- state the name of the game
+- after a colon state the question about the game rule. Be as strict as possible.
+Rephrase the following question according to abovementioned rules: {question} 
+"""
+Question: "how do I get out of jail in monopoly?"
+Rephrase: - Game Name: Monopoly
+   - Question About the Game Rule: What are the steps to exit from a jail in Monopolory?
+Response: 1. In Monopoly, if you get sent to jail during your move (either by landing on the "Go to Jail" space or by rolling doubles three times in a row), then your turn is over and you do not get to use the Speed Die for that turn.
+2. To get out of jail, you must roll the sum of three dice. The white dice are used only when determining if you rolled doubles or triples (all of the dice show the same number). If you roll a triple, you can move anywhere on the board you want!
+3. If you do not roll a triple, your turn continues until you roll the exact sum of the amount shown in the "Get Out of Jail Free" card or the money required to pay for it if someone owns that card and is willing to sell it to you.
+4. You can also get out of jail by using a "Get Out of Jail Free" card, but this requires you to have one in your possession before going to jail.
+Sources: ['data/monopoly.pdf:0:0', 'data/monopoly.pdf:1:2', 'data/monopoly.pdf:1:0', 'data/monopoly.pdf:2:2', 'data/monopoly.pdf:1:1']
+Question:
+how to get out of jail in monopoly?
+Rephrase: Game Name: Monopoly
+   Question: How does one get out of jail in Monopolory?
+Response:  One gets out of jail in Monopoly by rolling doubles with the white dice on any of their next three turns, or by using a "Get Out of Jail Free" card if they have it. If they cannot roll doubles and do not have the card, they must pay a $50 fine before they can roll the dice on either of their next two turns. They then get out of jail and move forward the number of spaces shown by their throw. Even though in Jail, players can still buy and sell property, buy and sell houses and hotels, and collect rents.
+Sources: ['data/monopoly.pdf:1:2', 'data/monopoly.pdf:0:0', 'data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:1:1']
+
+
+2nd REPHRASING_PROMPT:
+"""Rephrase a question to a following format:
+- state the name of the game
+- after a colon state the question about the game rule. Be as strict as possible. Do not repeat the game name. 
+Rephrase the following question according to abovementioned rules: {question}
+"""
+
+Question: "how do I get out of jail in monopoly?" 
+Rephrase: Game Name: Monopoly
+   Question: How does one exit from jail in the game?
+Response:  One exits from jail in the game of Monopoly by throwing doubles on any of their next three turns. If they succeed, they immediately move forward the number of spaces shown by their doubles throw. Additionally, a player can also use a "Get Out of Jail Free" card if they have it, or purchase one from another player and play it to get out of jail. If a player does not throw doubles by their third turn, they must pay a $50 fine before their next roll. Even while in jail, players can still buy and sell properties, houses, hotels, and collect rents.
+Sources: ['data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:0:0', 'data/monopoly.pdf:1:0', 'data/monopoly.pdf:2:2']
+
+Question: "how to get out of jail in monopoly?"
+Rephrase: Game: Monopoly
+   Question: What is the rule for getting out of jail?
+Response:  To get out of Jail in Monopoly, a player must throw doubles on any one of their next three turns. If they succeed, they move forward the number of spaces shown by their dice roll. Additionally, players can also use a "Get Out of Jail Free" card if they have it, or purchase and play one from another player. If a player does not throw doubles by their third turn, they must pay a fine of $50 before their next two turns.
+Sources: ['data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:0:0', 'data/monopoly.pdf:2:2', 'data/monopoly.pdf:1:1']
+Rephrase2 (sampling): Game: Monopoly
+   Question: What is the rule for exiting a jail in Monopolory?
+Response:  To exit a jail in Monopoly, you can either throw doubles on any of your next three turns, purchase or play a "Get Out of Jail Free" card, or pay a fine of $50 before rolling the dice on either of your next two turns. If you don't manage to roll doubles by your third turn, you must pay the $50 fine and move forward according to the number you roll. Even while in jail, you can still buy and sell property, buy and sell houses and hotels, and collect rents.
+Sources: ['data/monopoly.pdf:2:2', 'data/monopoly.pdf:1:1', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:4:2', 'data/monopoly.pdf:1:0']
+Rephrase3(sampling):  - Game: Monopoly
+  - How does one exit from jail in the game?
+Response: 1. Throw doubles on any of your next three turns and move forward the number of spaces shown by your doubles throw (without taking another turn).
+2. Use the "Get Out of Jail Free" card if you have it.
+3. Purchase the "Get Out of Jail Free" card from another player and play it.
+4. Pay a fine of $50 before you roll the dice on either of your next two turns, then get out of Jail after paying the fine and moving forward the number of spaces shown by your throw on your subsequent turn.
+Sources: ['data/monopoly.pdf:4:1', 'data/monopoly.pdf:4:2', 'data/monopoly.pdf:2:2', 'data/monopoly.pdf:0:0', 'data/monopoly.pdf:1:0']
+
+3rd REPHRASING PROMPT (with example, mirostat_tau=0):
+"""Rephrase a question to a following format:
+- state the name of the game
+- after a colon state the question about the game rule. Be as strict as possible. Do not repeat the game name.
+Example of correctly rephrased question for question "how do I build a hotel in monopoly?":
+Monopoly: how to build a hotel?
+Rephrase the following question according to abovementioned rules: {question} """
+Questions:
+how do I get out of jail in monopoly?
+how do I get out from jail in monopoly?
+how to get out of jail in monopoly?
+how can I get out of jail in monopoly?
+Rephrase (the same):
+Monopoly: How to get out of jail?
+Response:  To get out of Jail in Monopoly, a player can either throw doubles on any of their next three turns or use a "Get Out of Jail Free" card (either by owning one or buying it from another player and playing it). If neither of these conditions are met, the player must pay a fine of $50 before their third turn, after which they move forward the number of spaces shown by their throw.
+Sources: ['data/monopoly.pdf:4:2', 'data/monopoly.pdf:4:1', 'data/monopoly.pdf:0:0', 'data/monopoly.pdf:1:0', 'data/monopoly.pdf:2:2']
+

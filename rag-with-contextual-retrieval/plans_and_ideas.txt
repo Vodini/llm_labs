@@ -1,0 +1,17 @@
+- Sentiment classification of comments (IMDB, Mistral/LLama3, zero-shot -- few shot, retrieval)
+https://www.kaggle.com/code/dhrv04/imdb-reviews-analysis-using-logistic-regression
+https://paperswithcode.com/dataset/dynasent
+
+- Rephrase and retrieve - prepare a base of few documents, prompt LLM to rephrase a sentence to a fixed format, send the format to Chroma, retrieve answers, reason answer
+game instructions?
+
+
+- Fine-tune a model for article/text summarization using PNAS articles (body vs abstract) on Bielik2 and check how summarization works on polish texts 
+
+
+
+- RAG issues with retrieval - how to tune embedding model:
+-- generate questions to embedded text by larger LLM
+-- cluster questions and pair them together (having fitting question vs non-fitting question, but from similar space)
+-- finetune an embedding model with DPO for a closer e.g. cosine distance between a fitting question and embedded than non-fitting question and vice versa (distance between fitting and non-fitting text to embedded question)
+
